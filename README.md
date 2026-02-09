@@ -52,13 +52,15 @@ requirements.txt
 
 ## Inputs and Outputs
 
-Input files (in `data/`):
+Input files (in `data/`): 
 
 - employee availability and manager roster
 - shift code definitions
 - store configuration
 - staffing estimate/requirements
 - rostering parameters
+
+*Sample input files were provided as part of a hackathon participation and have been used here solely for demonstration and portfolio purposes.*
 
 Generated outputs (in `data/artifacts/`):
 
