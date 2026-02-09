@@ -1,0 +1,5 @@
+store_id,store_location_type,period_type,kitchen_staff,counter_staff,mccafe_staff,dessert_station_staff,offline_dessert_station_staff
+Store_1,CBD Core Area,Normal,6,5,3,2,1
+Store_1,CBD Core Area,Peak,8,6,4,3,2
+Store_2,Suburban Residential,Normal,3,3,0,0,0
+Store_2,Suburban Residential,Peak,4,3,0,0,0
