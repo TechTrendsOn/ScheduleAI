@@ -1,5 +1,6 @@
 # MAS Rostering Demo (Agentic AI)
 
+🔗 Live demo: https://schedule-roster-ai.streamlit.app/
 Multi-agent workforce scheduling prototype for restaurant operations.
 
 This project ingests messy Excel/CSV inputs, generates a draft roster with OR-Tools CP-SAT, validates compliance, suggests swaps, produces a final roster, and adds RAG/Q&A + explanation agents for decision transparency.
@@ -12,6 +13,14 @@ This project ingests messy Excel/CSV inputs, generates a draft roster with OR-To
 - Interactive swap confirmation flow
 - RAG-based question answering over project artifacts
 - Explanation agent for audit-friendly summaries
+
+## Live Demo
+
+You can interact with the deployed Streamlit application here:
+
+https://schedule-roster-ai.streamlit.app/
+
+The demo walks through ingestion, roster generation, compliance checks, swaps, finalization, and explanation agents using sample datasets.
 
 ## Architecture
 
