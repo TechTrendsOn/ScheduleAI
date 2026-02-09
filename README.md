@@ -95,13 +95,14 @@ streamlit run streamlit_dashboard.py
 
 ## Notes
 
-- `data/artifacts/` is generated at runtime.
+- 'data/artifacts/' is generated at runtime and should not be committed.
 - Some datasets may produce no feasible swaps under strict rules (this is valid behavior).
 - RAG agents use local open-source models and may be slow on first run due to model downloads.
 
 ## Tech Stack
 
 - Python, Streamlit, Pandas
+- openpyxl (for .xlsx ingestion)
 - OR-Tools (CP-SAT)
 - ChromaDB
 - SentenceTransformers (`all-MiniLM-L6-v2`)
